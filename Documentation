@@ -1,0 +1,28 @@
+How to Use- 
+Run the script using Python: python virtual_assistant.py
+
+Follow the on-screen prompts to:Perform calculations.
+        Get weather information.
+        Set reminders.
+        Ask simple questions.
+
+Features
+  Perform Calculation: Enter arithmetic expressions like 2 + 3 * 4.
+  Get Weather: Enter a city name to get the current weather.
+  Set Reminder: Enter a reminder text and time in YYYY-MM-DD HH:MM format.
+  Ask a Question: Ask simple questions like "What is your name?" or "What is the time?".
+
+Logging
+ All operations are logged in assistant.log.
+ If using SQLite, operation history is stored in assistant.db.
+
+Weather API
+ Replace YOUR_API_KEY with your OpenWeatherMap API key.
+
+Error Handling
+ Handles invalid inputs, division by zero, and API errors gracefully.
+
+Optional Enhancements
+ GUI: Use Tkinter to create a graphical user interface.
+ Pandas: Generate reports in table format using Pandas.
+ Advanced Reminders: Use a scheduler library like schedule to trigger reminders.
