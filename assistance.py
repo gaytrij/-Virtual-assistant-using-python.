@@ -8,7 +8,7 @@ import os
 logging.basicConfig(filename='assistant.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # OpenWeatherMap API key
-API_KEY = 'YOUR_API_KEY'
+API_KEY = '0d6f4e457bebd2b98f0aa8428ab640a3'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 # SQLite database setup
